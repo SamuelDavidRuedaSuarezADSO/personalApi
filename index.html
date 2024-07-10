@@ -8,38 +8,42 @@
 </head>
 <body>
   <main id="root">
-    <div class="cards">
-      <form action="" id="form" class="form">
-        <div class="card">
-          <label for="name" class="label">NOMBRE:</label>
-          <input type="text" class="input" name="name" id="name">
-        </div>
-        <div class="card">
-          <label for="tipo" class="laber">TIPO DE DOCUMENTO:</label>
-          <select id="tipo" name="tipo" class="tipo">
-            <option value="pre" selected>Seleciona una opción</option>
-            <option value="ti">Tajeta de Identidad</option>
-            <option value="cc">Cedula Ciudadana</option>
-            <option value="ce">Cedula Extranjera</option>
-            <option value="ps">Pasaporte</option>
-            <option value="lm">Libreta Militar</option>
-          </select>
-        </div>
-        <div class="card">
-          <label for="doc" class="label">DOCUMENTO:</label>
-          <input type="text" class="input" name="doc" id="doc">
-        </div>
-        <div class="card">
-          <label for="mail" class="label">EMAIL:</label>
-          <input type="text" class="input" name="mail" id="mail">
-        </div>
-        <div class="card">
-          <label for="dicc" class="label">DIRECCION:</label>
-          <input type="text" class="input" name="dicc" id="dicc">
-        </div>
-        <button type="submit" id="boton">Enviar</button>
-      </form>
-    </div>
+    <form action="" id="form" class="cards">
+      <h2 class="cards__title">Registrate</h2>
+      <div class="cards__card">
+        <label for="name" class="label">NOMBRE:</label>
+        <input type="text" class="input" name="name" id="name">
+      </div>
+      <div class="cards__card">
+        <label for="apellido" class="label">APELLIDO:</label>
+        <input type="text" class="input" name="apellido" id="apellido">
+      </div>
+      <div class="cards__card">
+        <label for="tipo" class="laber">TIPO DE DOCUMENTO:</label>
+        <select id="tipo" name="tipo" class="tipo">
+          <option value="pre" selected>Seleciona una opción</option>
+          <option value="ti">Tajeta de Identidad</option>
+          <option value="cc">Cedula Ciudadana</option>
+          <option value="ce">Cedula Extranjera</option>
+          <option value="ps">Pasaporte</option>
+          <option value="lm">Libreta Militar</option>
+        </select>
+      </div>
+      <div class="cards__card">
+        <label for="doc" class="label">DOCUMENTO:</label>
+        <input type="text" class="input" name="doc" id="doc">
+      </div>
+      <div class="cards__card">
+        <label for="mail" class="label">EMAIL:</label>
+        <input type="text" class="input" name="mail" id="mail">
+      </div>
+      <div class="cards__card">
+        <label for="dicc" class="label">DIRECCION:</label>
+        <input type="text" class="input" name="dicc" id="dicc">
+      </div>
+      <button type="submit" id="boton">Enviar</button>
+    </form>
+    <a href="public/listar.html" class="listar">LISTA DE LOS DATOS GUARDADOS</a>
   </main>
   <script src="app.js" type="module"></script>
 </body>

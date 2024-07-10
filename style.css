@@ -2,5 +2,56 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 1rem;
 }
-
+:root{
+  --color-negro: #000;
+  --color-blanco: #fff;
+  --border-height: 2px;
+  --padding: 10px;
+  --padding-select: 5px;
+  --full-width: 100%;
+  --full-height: 100vh;
+  --input-height: 35px;
+  --title-size: 2rem;
+}
+body{
+  background-color: var(--color-negro);
+  color: var(--color-blanco);
+}
+main{
+  width: var(--full-width);
+  height: var(--full-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.cards{
+  border: solid var(--border-height) var(--color-blanco);
+  padding: var(--padding);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.cards__title{
+  font-size: var(--title-size);
+}
+.cards__card{
+  width: var(--full-width);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.input{
+  height: var(--input-height);
+  padding: var(--padding);
+}
+.tipo{
+  height: var(--input-height);
+  padding: var(--padding-select);
+}

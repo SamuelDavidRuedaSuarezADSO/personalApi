@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="listar.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="root" id="root">
+        <section>
+            <a href="../index.html">VOLVER</a>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>NOMBRE</th>
+                        <th>APELLIDO</th>
+                        <th>TIPO</th>
+                        <th>DOCUMENTO</th>
+                        <th>CORREO</th>
+                        <th>DIRECCION</th>
+                        <th>ELIMINAR</th>
+                        <th>MODIFICAR</th>
+                        
+                    </tr>
+                </thead>
+                <tbody id="table">
+    
+                </tbody>
+            </table>
+        </section>
+        <section class="hidden">
+            <form action="" id="form" class="cards">
+                <h2 class="cards__title">MODIFICAR</h2>
+                <div class="cards__card">
+                  <label for="nit" class="label">ID:</label>
+                  <input type="text" class="input" name="nit" id="nit" disabled>
+                </div>
+                <div class="cards__card">
+                  <label for="name" class="label">NOMBRE:</label>
+                  <input type="text" class="input" name="name" id="name">
+                </div>
+                <div class="cards__card">
+                  <label for="apellido" class="label">APELLIDO:</label>
+                  <input type="text" class="input" name="apellido" id="apellido">
+                </div>
+                <div class="cards__card">
+                  <label for="tipo" class="laber">TIPO DE DOCUMENTO:</label>
+                  <select id="tipo" name="tipo" class="tipo">
+                    <option value="pre" selected>Seleciona una opción</option>
+                    <option value="ti">Tajeta de Identidad</option>
+                    <option value="cc">Cedula Ciudadana</option>
+                    <option value="ce">Cedula Extranjera</option>
+                    <option value="ps">Pasaporte</option>
+                    <option value="lm">Libreta Militar</option>
+                  </select>
+                </div>
+                <div class="cards__card">
+                  <label for="doc" class="label">DOCUMENTO:</label>
+                  <input type="text" class="input" name="doc" id="doc">
+                </div>
+                <div class="cards__card">
+                  <label for="mail" class="label">EMAIL:</label>
+                  <input type="text" class="input" name="mail" id="mail">
+                </div>
+                <div class="cards__card">
+                  <label for="dicc" class="label">DIRECCION:</label>
+                  <input type="text" class="input" name="dicc" id="dicc">
+                </div>
+                <button type="submit" id="boton">Enviar</button>
+              </form>
+        </section>
+    </main>
+    <script src="lista.js" type="module"></script>
+</body>
+</html>
