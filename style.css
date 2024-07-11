@@ -57,8 +57,9 @@ main{
   padding: var(--padding-select);
 }
 .listar{
-  width: 210px;
+  width: 300px;
   height: var(--input-height);
+  color: var(--color-blanco);
   text-decoration: none;
   border: solid var(--border-height) var(--color-blanco);
   text-align: center;
