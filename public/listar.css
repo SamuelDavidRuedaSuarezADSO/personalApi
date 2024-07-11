@@ -7,10 +7,6 @@
 .hidden{
     display: none;
 }
-
-.section{
-
-}
 .section__table{
     border: solid var(--border-height) var(--color-blanco);
     padding: var(--padding);

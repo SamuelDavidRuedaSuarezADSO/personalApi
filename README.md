@@ -24,4 +24,4 @@ npx json-server name.json
 
 Ahora abrimos otro git bash y navegamos hasta nuestra carpeta donde clonaremos el repositorio y trabajaremos agusto,
 
-###### Cuando termines de trabajas en el primer git bash usa el comando CONTROL + C para cerrar la api y asi poder usarda despues
+###### Cuando termines de trabajas en el primer git bash usa el comando CONTROL + C para cerrar la api y asi poder usarda despues.

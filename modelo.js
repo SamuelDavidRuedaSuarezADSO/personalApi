@@ -43,3 +43,5 @@ export const modificar = async (data, id) =>{
     .then((response) => response.json())
     .then((json) => console.log(json));
 }
+
+// FINALIZADO
