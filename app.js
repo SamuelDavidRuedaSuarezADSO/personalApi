@@ -78,7 +78,7 @@ const validar = (event) => {
                       nombre: name,
                       apellido: apell,
                       tipo_documento: tipo,
-                      documneto: doc,
+                      documento: doc,
                       correo: mail,
                       direccion: dicc 
                     }

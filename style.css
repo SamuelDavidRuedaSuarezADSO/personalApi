@@ -8,6 +8,7 @@
   --color-negro: #000;
   --color-blanco: #fff;
   --border-height: 2px;
+  --border-radius: 10px;
   --padding: 10px;
   --padding-select: 5px;
   --full-width: 100%;
@@ -54,4 +55,23 @@ main{
 .tipo{
   height: var(--input-height);
   padding: var(--padding-select);
+}
+.listar{
+  width: 210px;
+  height: var(--input-height);
+  text-decoration: none;
+  border: solid var(--border-height) var(--color-blanco);
+  text-align: center;
+  line-height: 32px;
+}
+.listar:hover{
+  background-color: var(--color-blanco);
+  color: var(--color-negro);
+}
+.enviar{
+  color: var(--color-negro);
+}
+.enviar:hover{
+  background-color: var(--color-negro);
+  color: var(--color-blanco);
 }

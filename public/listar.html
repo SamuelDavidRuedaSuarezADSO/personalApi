@@ -7,27 +7,24 @@
     <title>Document</title>
 </head>
 <body>
+  <section class="back">
+    <a href="../index.html" class="volver">VOLVER</a>
+  </section>
     <main class="root" id="root">
-        <section>
-            <a href="../index.html">VOLVER</a>
-            <table>
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>NOMBRE</th>
-                        <th>APELLIDO</th>
-                        <th>TIPO</th>
-                        <th>DOCUMENTO</th>
-                        <th>CORREO</th>
-                        <th>DIRECCION</th>
-                        <th>ELIMINAR</th>
-                        <th>MODIFICAR</th>
-                        
+        <section class="section">
+            <table class="section__table">
+                <thead class="table__head">
+                    <tr class="head__tr">
+                        <th class="tr__th">ID</th>
+                        <th class="tr__th">NOMBRE</th>
+                        <th class="tr__th">APELLIDO</th>
+                        <th class="tr__th">TIPO</th>
+                        <th class="tr__th">DOCUMENTO</th>
+                        <th class="tr__th">CORREO</th>
+                        <th class="tr__th">DIRECCION</th>
                     </tr>
                 </thead>
-                <tbody id="table">
-    
-                </tbody>
+                <tbody id="table" class="table body"></tbody>
             </table>
         </section>
         <section class="hidden">
@@ -68,7 +65,7 @@
                   <label for="dicc" class="label">DIRECCION:</label>
                   <input type="text" class="input" name="dicc" id="dicc">
                 </div>
-                <button type="submit" id="boton">Enviar</button>
+                <button type="submit" id="boton" class="enviar listar">Enviar</button>
               </form>
         </section>
     </main>

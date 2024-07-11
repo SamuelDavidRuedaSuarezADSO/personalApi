@@ -58,7 +58,7 @@ const modi = () =>{
                 tipo_documento: x,
                 documento: documento,
                 correo: email,
-                dicc: direccion,
+                direccion: direccion,
             }
             modificar(database, dni);
             location.reload();
@@ -88,6 +88,10 @@ const list = () => {
             const $direcc = document.createElement("td");
             const $drop = document.createElement("button");
             const $modi = document.createElement("button");
+            $drop.classList.add("boton");
+            $drop.classList.add("delete");
+            $modi.classList.add("boton");
+            $modi.classList.add("modi");
             $drop.textContent = "ELIMINAR";
             $modi.textContent = "MODIFICAR";
             $id.textContent = x.id;
