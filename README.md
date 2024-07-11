@@ -15,7 +15,7 @@ Despues crea abre el visual studio code y crea un archivo "name".json ("name" es
 code . name.json
 ```
 
-#### Es muy importante que apartir de este punto no hagas nada en el git bash que no se te indique (ya que esto pertene al back-end si no tienes conociento de ello es mejor no moverle)
+#### Es muy importante que apartir de este punto no hagas nada en el git bash que no se te indique (ya que esto pertene al back-end si no tienes conociento de ello es mejor no moverle).
 
 Ahora con el archivo json creado donde ira nuestra base de datos, agregamos el siquiente codigo para iniciar con la base de datos como una api
 ```
